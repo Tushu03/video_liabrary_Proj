@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 export function Home() {
   return (
-    <div className="container-fluid d-flex justify-content-center align-items-center" style={{ height: '80vh', backgroundColor: '#f5f5f5',maxWidth:'300px' }}>
+    <div className="container-fluid d-flex justify-content-center align-items-center" style={{ height: '80vh', backgroundColor: '#f5f5f5',maxWidth:'400px' }}>
       <div
         className="card p-4 text-center"
         style={{
