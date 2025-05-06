@@ -1,4 +1,4 @@
-import store from "../store/store";
+//import store from "../store/store";
 import{motion} from"framer-motion";
 
 import Card from '@mui/material/Card';

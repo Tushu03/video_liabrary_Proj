@@ -26,6 +26,7 @@
     "formik": "^2.4.6",
     "framer-motion": "^12.6.3",
     "mongodb": "^6.15.0",
+    "mongoose": "^8.14.1",
     "react": "^19.0.0",
     "react-cookie": "^8.0.1",
     "react-dom": "^19.0.0",

@@ -9,7 +9,7 @@ import {toast} from "react-toastify"
 //import { Link } from "react-router-dom";
 export function Login()
 {
-    const [cokkies,setCookies,removeCookies] = useCookies(['admin_id']);
+    const [,setCookies] = useCookies(['admin_id']);
     let navigate=useNavigate();
     
 

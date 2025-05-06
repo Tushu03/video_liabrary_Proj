@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import { VideosContract } from "../contracts/videos";
 
 export function AdminDash() {
-    const [cokkies, setCookies, removeCookies] = useCookies(['admin_id'])
+    const [cokkies, , removeCookies] = useCookies(['admin_id'])
     const[videos,setVideos]=useState<VideosContract[]>();
 
     useEffect(()=>{

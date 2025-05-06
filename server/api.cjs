@@ -5,6 +5,9 @@ const cookieParser=require("cookie-parser");
 const { act } = require("react");
 const mongoClient=require("mongodb").MongoClient
 
+const connectDB = require('./db'); // adjust the path if needed
+require('dotenv').config();
+
 const conString="mongodb://127.0.0.1:27017"
 
 const app=express()
