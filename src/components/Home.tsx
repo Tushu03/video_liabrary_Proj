@@ -3,10 +3,7 @@ import { Link } from "react-router-dom";
 
 export function Home() {
   return (
-    <div
-      className="container-fluid d-flex justify-content-center align-items-center"
-      style={{ height: '100vh' }}
-    >
+    <div className="container-fluid d-flex justify-content-center align-items-center" style={{ height: '80vh', backgroundColor: '#f5f5f5',maxWidth:'300px' }}>
       <div
         className="card p-4 text-center"
         style={{
@@ -14,12 +11,9 @@ export function Home() {
           maxWidth: '400px',
           boxShadow: '0 4px 20px rgba(0,0,0,0.2)',
           borderRadius: '12px',
-          backgroundColor: '#ffffff' // Optional: force white background inside card
         }}
       >
-        <h4 className="mb-4 text-dark">
-          Welcome to <strong>VideoTV Library</strong>
-        </h4>
+        <h4 className="mb-4 text-dark">Welcome to <strong>VideoTV Library</strong></h4>
 
         <Button
           variant="contained"
