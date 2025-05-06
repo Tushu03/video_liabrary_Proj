@@ -1,0 +1,19 @@
+db.Cars.aggregate([
+    {
+        $project:{
+            _id:0,
+            model:1,
+            maker:1,
+            Price_cat:{
+                $switch:{
+                    branches:[
+                        {case:{$lt:["$price",500000]},then:"Budget"},
+                        {case:{$and:[{$gte:["$price",500000]},{$lt:["$price",1000000]}]},then:"Middle_class"},
+                        {case:{$gte:["$price",1000000]},then:"Premium"}
+                    ],
+                    default:"unknown"
+                }
+            }
+        }
+    }
+])   

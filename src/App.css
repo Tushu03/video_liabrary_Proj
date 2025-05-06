@@ -1,0 +1,13 @@
+
+.bg-image{
+  background-image: url('/public/bg-image.jpg');
+  background-size: cover;
+  height: 850px;
+  width: 100%;
+  position: fixed;  
+  left: 0;
+  z-index: -1;
+ 
+  
+  
+}
